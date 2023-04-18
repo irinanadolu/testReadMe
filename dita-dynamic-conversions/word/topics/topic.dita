@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topicID">
+    <title>Referencing Word Content</title>
+    <body>
+        <p>This topic references content from the Word documents that are referenced within the DITA
+            map.</p>
+        <section id="section_xf4_c1w_fwb">
+            <title>Inserting Cross References</title>
+            <p>Cross reference links to Word documents or to content inside of them can be inserted
+                by invoking the <menucascade>
+                    <uicontrol>Link</uicontrol>
+                    <uicontrol>Cross Reference...</uicontrol>
+                </menucascade> action from the contextual menu.</p>
+            <p><i>Example:</i> This is a cross reference to a heading inside the Word document:
+                <xref href="wordToReference.docx#first_heading" format="word-to-dita">First
+                    Heading</xref>.</p>
+            <p><i>Example:</i> This is a cross reference to a table inside Word document: <xref
+                href="wordToReference.docx#second_heading/table_bookmark" format="word-to-dita"
+                >Second Heading/table</xref>.</p>
+        </section>
+        <section id="section_ec4_z1w_fwb">
+            <title>Inserting Content References</title>
+            <p>For referencing reused content from Word documents, you can invoke the <menucascade>
+                <uicontrol>Reuse</uicontrol>
+                <uicontrol>Reuse Content...</uicontrol>
+            </menucascade> action from the contextual menu.</p>
+            <p><i>Example:</i> This is a reference to a reused paragraph from the Word document:</p>
+            <p conref="wordToReuse.docx#word_document_to_reuse_content_from_it./para_bookmark"/>
+            <p><i>Example:</i> This is a reference to a reused table from the Word document: <table
+                conref="wordToReuse.docx#word_document_to_reuse_content_from_it./table_bookmark"
+                id="table_yr5_jmq_gwb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        </section>
+        <p><i>Example:</i> This is a reference to a reused section from the Word document: </p>
+    </body>
+    <topic id="id_xgs_rmq_gwb" conref="wordToReuse.docx#inner_section">
+        <title/>
+    </topic>
+</topic>

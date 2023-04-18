@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topicID">
+    <title>Referencing HTML Content</title>
+    <body>
+        <p>This topic references content from the HTML document that is referenced within the DITA
+            map.</p>
+        <section id="section_xf4_c1w_fwb">
+            <title>Inserting Cross References</title>
+            <p>Cross reference links to the HTML documents or to content inside of them can be
+                inserted by invoking the <menucascade>
+                    <uicontrol>Link</uicontrol>
+                    <uicontrol>Cross Reference...</uicontrol>
+                </menucascade> action from the contextual menu.</p>
+            <p><i>Example:</i> This is a cross reference to a heading inside the HTML document:
+                <xref href="htmlToReference.html#first_section" format="html-to-dita">First
+                    Section</xref>.</p>
+            <p><i>Example:</i> This is a cross reference to a table inside the HTML document: <xref
+                href="htmlToReference.html#second_section/table" format="html-to-dita">Second
+                Section/table</xref>.</p>
+        </section>
+        <section id="section_ec4_z1w_fwb">
+            <title>Inserting Content References</title>
+            <p>For referencing resused content from HTML documents, you can invoke the <menucascade>
+                <uicontrol>Reuse</uicontrol>
+                <uicontrol>Reuse Content...</uicontrol>
+            </menucascade> action from the contextual menu.</p>
+            <p><i>Example:</i> This is a reference to a reused paragraph from the HTML document:</p>
+            <p conref="htmlToReference.html#second_section/para_id"/>
+            <p><i>Example:</i> This is a reference to a reused section from the HTML document: </p>
+        </section>
+    </body>
+    <topic id="id_x4f_rdr_gwb" conref="htmlToReference.html#second_section">
+        <title/>
+    </topic>
+    
+</topic>

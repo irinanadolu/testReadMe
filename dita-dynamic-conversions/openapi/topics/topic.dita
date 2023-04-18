@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="benefits">
+    <title>Referencing OpenAPI Content</title>
+    <body>
+        <p>This topic references content from the Open API document that is referenced within the
+            DITA map.</p>
+        <section id="section_xf4_c1w_fwb">
+            <title>Inserting Cross References</title>
+            <p>Cross reference links to Open API documents or to content inside of them can be
+                inserted by invoking the <menucascade>
+                    <uicontrol>Link</uicontrol>
+                    <uicontrol>Cross Reference...</uicontrol>
+                </menucascade> action from the contextual menu.</p>
+            <p><i>Example:</i> This is a cross reference to an operation from the OpenAPI document:
+                <xref href="openAPI.json#updateExample" format="openapi-to-dita"
+                    >PUT/examples</xref>.</p>
+            <p><i>Example:</i> This is a cross reference to a schema from the OpenAPI document:
+                <xref href="openAPI.json#schemas/example" format="openapi-to-dita"
+                    >Example</xref>.</p>
+        </section>
+        <section id="section_ec4_z1w_fwb">
+            <title>Inserting Content References</title>
+            <p>For referencing reused content from OpenAPI documents, you can invoke the <menucascade>
+                <uicontrol>Reuse</uicontrol>
+                <uicontrol>Reuse Content...</uicontrol>
+            </menucascade> action from the contextual menu.</p>
+            <p><i>Example:</i> This is a reference to a reused operation from the OpenAPI
+                document:</p>
+        </section>
+    </body>
+    <topic id="id_kkw_xtq_gwb" conref="openAPI.json#listExamples">
+        <title/>
+    </topic>
+</topic>

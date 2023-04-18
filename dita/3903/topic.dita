@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="urn:oasis:names:tc:dita:rng:topic.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<topic id="root_topic_id">
+  <title>Test Topic - 2 2 2</title>
+  <topic id="id_1">
+    <title>Topic - 1</title>
+    <body>
+      <p product="A">This is some text for product A.</p>
+      <p product="B">This is some text for product B.</p>
+    </body>
+    <topic id="id_1_1">
+      <title>Topic - 1_1</title>
+      <body>
+        <p product="A">This is some text for product A.</p>
+        <p product="B">This is some text for product B.</p>
+      </body>
+      <topic id="id_1_1_1">
+        <title>Topic - 1_1_1</title>
+        <body>
+          <p product="A">This is some text for product A.</p>
+          <p product="B">This is some text for product B.</p>
+        </body>
+      </topic>
+      <topic id="id_1_1_2">
+        <title>Topic - 1_1_2</title>
+        <body>
+          <p product="A">This is some text for product A.</p>
+          <p product="B">This is some text for product B.</p>
+        </body>
+      </topic>
+    </topic>
+    <topic id="id_1_2">
+      <title>Topic - 1_2</title>
+      <body>
+        <p product="A">This is some text for product A.</p>
+        <p product="B">This is some text for product B.</p>
+      </body>
+      <topic id="id_1_2_1">
+        <title>Topic - 1_2_1</title>
+        <body>
+          <p product="A">This is some text for product A.</p>
+          <p product="B">This is some text for product B.</p>
+        </body>
+      </topic>
+      <topic id="id_1_2_2">
+        <title>Topic - 1_2_2</title>
+        <body>
+          <p product="A">This is some text for product A.</p>
+          <p product="B">This is some text for product B.</p>
+        </body>
+      </topic>
+    </topic>
+  </topic>
+  <topic id="id_2">
+    <title>Topic - 2</title>
+    <body>
+      <p product="A">This is some text for product A.</p>
+      <p product="B">This is some text for product B.</p>
+    </body>
+    <topic id="id_2_1">
+      <title>Topic - 2_1</title>
+      <body>
+        <p product="A">This is some text for product A.</p>
+        <p product="B">This is some text for product B.</p>
+      </body>
+      <topic id="id_2_1_1">
+        <title>Topic - 2_1_1</title>
+        <body>
+          <p product="A">This is some text for product A.</p>
+          <p product="B">This is some text for product B.</p>
+        </body>
+      </topic>
+      <topic id="id_2_1_2">
+        <title>Topic - 2_1_2</title>
+        <body>
+          <p product="A">This is some text for product A.</p>
+          <p product="B">This is some text for product B.</p>
+        </body>
+      </topic>
+    </topic>
+    <topic id="id_2_2">
+      <title>Topic - 2_2</title>
+      <body>
+        <p product="A">This is some text for product A.</p>
+        <p product="B">This is some text for product B.</p>
+      </body>
+      <topic id="id_2_2_1">
+        <title>Topic - 2_2_1</title>
+        <body>
+          <p product="A">This is some text for product A.</p>
+          <p product="B">This is some text for product B.</p>
+        </body>
+      </topic>
+      <topic id="id_2_2_2">
+        <title>Topic - 2_2_2</title>
+        <body>
+          <p product="A">This is some text for product A.</p>
+          <p product="B">This is some text for product B.</p>
+        </body>
+      </topic>
+    </topic>
+  </topic>
+</topic>

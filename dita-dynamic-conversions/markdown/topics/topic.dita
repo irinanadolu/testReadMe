@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topicID">
+    <title>Referencing Markdown Content</title>
+    <body>
+        <p>This topic references content from the Markdown document that is referenced within the
+            DITA map.</p>
+        <section id="section_xf4_c1w_fwb">
+            <title>Inserting Cross References</title>
+            <p>Cross reference links to Markdown documents or to content inside of them can be
+                inserted by invoking the <menucascade>
+                    <uicontrol>Link</uicontrol>
+                    <uicontrol>Cross Reference...</uicontrol>
+                </menucascade> action from the contextual menu.</p>
+            <p><i>Example:</i> This is a cross reference to a heading inside the Markdown document:
+                <xref href="markdown.md#first-section" format="markdown">First
+                    Section</xref>.</p>
+        </section>
+        <section id="section_ec4_z1w_fwb">
+            <title>Inserting Content References</title>
+            <p>For referencing reused content from Markdown documents, you can invoke the <menucascade>
+                <uicontrol>Reuse</uicontrol>
+                <uicontrol>Reuse Content...</uicontrol>
+            </menucascade> action from the contextual menu.</p>
+            <p><i>Example:</i> This is a reference to a reused section from the Markdown document: </p>
+        </section>
+    </body>
+    <topic id="id_xgs_rmq_gwb" conref="markdown.md#section_id">
+        <title/>
+    </topic>
+</topic>

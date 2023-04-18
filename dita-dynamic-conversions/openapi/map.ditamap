@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Integrating OpenAPI into DITA</title>
+    <topicref href="topics/topic.dita"/>
+    <!--The "Reference" action in the "Append child", "Insert Before", and "Insert After" submenus in the contextual menu from the DITA Maps Manager view can be used for inserting topic references to OpenAPI documents.-->
+    <!--OpenAPI documents referenced in the DITA map with the "openapi-to-dita" format are dynamically converted and included in the publishing process.
+They are also validated as DITA files by the Validate and Check for Completeness action.-->
+    <topicref href="topics/openAPI.json" format="openapi-to-dita"/>
+</map>

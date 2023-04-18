@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topicID">
+    <title>Referencing Excel Content</title>
+    <body>
+        <p>This topic references content from the MS Excel documents that are referenced within the
+            DITA map.</p>
+        <section id="section_xf4_c1w_fwb">
+            <title>Inserting Cross References</title>
+            <p>Cross reference links to Excel documents or to content inside of them can be inserted
+                by invoking the <menucascade>
+                    <uicontrol>Link</uicontrol>
+                    <uicontrol>Cross Reference...</uicontrol>
+                </menucascade> action from the contextual menu.</p>
+            <p><i>Example:</i> This is a cross reference to a table inside the Excel document: <xref
+                href="excelToReference.xlsx#excelToReference/Products" format="excel-to-dita"
+                >Products</xref>.</p>
+        </section>
+        <section id="section_ec4_z1w_fwb">
+            <title>Inserting Content References</title>
+            <p>For referencing reused content from Excel documents, you can invoke the <menucascade>
+                <uicontrol>Reuse</uicontrol>
+                <uicontrol>Reuse Content...</uicontrol>
+            </menucascade> action from the contextual menu.</p>
+            <p><i>Example:</i> This is a reference to a reused table from the Excel document: <table
+                conref="excelToReuse.xlsx#excelToReuse/Table_to_reuse" id="table_vyx_rjr_gwb">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        </section>
+    </body>
+</topic>

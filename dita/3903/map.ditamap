@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="urn:oasis:names:tc:dita:rng:map.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<map>
+  <title>Test Map - 2 2 2</title>
+  <ditavalref href="filter-A.ditaval"/>
+  <topicref href="topic.dita">
+    <topicref href="topic.dita#id_1">
+      <topicref href="topic.dita#id_1_1">
+        <topicref href="topic.dita#id_1_1_1"/>
+        <topicref href="topic.dita#id_1_1_2"/>
+      </topicref>
+      <topicref href="topic.dita#id_1_2">
+        <topicref href="topic.dita#id_1_2_1"/>
+        <topicref href="topic.dita#id_1_2_2"/>
+      </topicref>
+    </topicref>
+    <topicref href="topic.dita#id_2">
+      <topicref href="topic.dita#id_2_1">
+        <topicref href="topic.dita#id_2_1_1"/>
+        <topicref href="topic.dita#id_2_1_2"/>
+      </topicref>
+      <topicref href="topic.dita#id_2_2">
+        <topicref href="topic.dita#id_2_2_1"/>
+        <topicref href="topic.dita#id_2_2_2"/>
+      </topicref>
+    </topicref>
+  </topicref>
+</map>

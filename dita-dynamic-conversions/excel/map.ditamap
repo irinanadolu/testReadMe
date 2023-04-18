@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Integrating Excel into DITA</title>
+  <!--The "Reference" action in the "Append child", "Insert Before", and "Insert After" submenus in the contextual menu from the DITA Maps Manager view can be used for inserting topic references to MS Excel documents.-->
+  <!--Excel documents referenced in the DITA map with the "excel-to-dita" format are dynamically converted and included in the publishing process.
+They are also validated as DITA files by the Validate and Check for Completeness action.-->
+  <topicref href="topics/excelToReference.xlsx" format="excel-to-dita"/>
+  <!--Resources that specify a @processing-role value of "resource-only" do not appear in the published table of contents.
+The Excel document is referenced as resource-only because a content reference to the table is made in the topic.dita file. -->
+  <topicref href="topics/excelToReuse.xlsx" format="excel-to-dita" processing-role="resource-only"/>
+  <topicref href="topics/topic.dita"/>
+</map>

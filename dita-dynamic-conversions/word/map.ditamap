@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Integrating Word into DITA</title>
+  <!--The "Reference" action in the "Append child", "Insert Before", and "Insert After" submenus in the contextual menu from the DITA Maps Manager view can be used for inserting topic references to Word documents or to sections, separated by headings inside of them.-->
+  <!--Word documents referenced in the DITA map with the "word-to-dita" format are dynamically converted and included in the publishing process.
+They are also validated as DITA files by the Validate and Check for Completeness action.-->
+  <topicref href="topics/wordToReference.docx" format="word-to-dita"/>
+  <!--Resources that specify a @processing-role value of "resource-only" do not appear in the published table of contents.
+The Word document is referenced as resource-only because content references are made in the topic.dita file.-->
+  <topicref href="topics/wordToReuse.docx" format="word-to-dita" processing-role="resource-only"/>
+  <topicref href="topics/topic.dita"/>
+</map>
