@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map title="Bats"> 
+	<topicref href="bats.dita" type="topic">
+		<topicref href="batcaring.dita" type="task"></topicref>
+		<topicref href="batfeeding.dita" type="task"></topicref>
+		<topicref href="batsonar.dita" type="concept"></topicref>
+		<topicref href="batguano.dita" type="reference"></topicref>
+		<topicref href="bathistory.dita" type="reference"></topicref>
+	</topicref>
+</map>
